@@ -1,17 +1,17 @@
 # Watson AIOps AI-Manager Installation
 
-This article explains about how to install Watson AIOps AI-Manager on ROKS. 
+This article explains about how to install Watson AIOps AI-Manager on ROKS. The below sections describes that.
 
-- 1. Watson AIOps 3.2.0 installation and demo setup requirements.
-- 2. Updating Global Pull Secrets before installing WAIOps 3.2
-- 3. Installing Watson AIOps AI-Manager on ROKS
+- Watson AIOps 3.2.0 installation and demo setup requirements.
+- Updating Global Pull Secrets before installing WAIOps 3.2
+- Installing Watson AIOps AI-Manager on ROKS
 
 The article is based on the the following.
 
 - RedHat OpenShift 4.8 on IBM Cloud (ROKS)
 - Watson AIOps 3.2.0
 
-## 1.Watson AIOps 3.2.0 installation and demo setup requirements.
+## 1. Watson AIOps 3.2.0 installation and demo setup requirements.
 
 This documentation explains about the Hardware and account requirements for Watson AIOps 3.2.0 installation and demo setup.
 
@@ -115,7 +115,7 @@ Worker nodes to be be reloaded for the pull secrets to reflect.
 <img src="images/image4.png">
 
 
-## 3.Installing Watson AIOps AI-Manager on ROKS
+## 3. Installing Watson AIOps AI-Manager on ROKS
 
 This document explains about Installing Watson AIOps AI-Manager on ROKS.
 
