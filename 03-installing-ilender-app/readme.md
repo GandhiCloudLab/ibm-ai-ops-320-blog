@@ -1,4 +1,4 @@
-# Watson AIOps AI-Manager Installation
+# Installing iLender App
 
 This article explains about how to install iLender demo app and how to generate load in the app for training.
 
