@@ -6,6 +6,8 @@ This application can be installed on any of the Kubernetes cluster (IKS, OCP and
 
 ## 1. Deploying iLender Application
 
+Through Kubectl or oc CLI commands login into the target cluster where you are going to install this app.
+
 ### 1. Update Humio properties
 
 Update `humioUrl` and `humioToken` properties in the file `./yaml/20-deployable-common.yaml`
@@ -14,6 +16,8 @@ Update `humioUrl` and `humioToken` properties in the file `./yaml/20-deployable-
   humioUrl: http://1.1.1.1:8080/api/v1/ingest/humio-unstructured
   humioToken: 
 ```
+
+To know more about humio url and token refer to the url : 
 
 ### 2. Apply the yaml
 
