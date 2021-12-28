@@ -1,0 +1,14 @@
+{
+    "Identifier": "5z68yB-PTPO99nLaLImqNw11",
+    "EventId": "5z68yB-PTPO99nLaLImqNw11",
+    "Node": "ilender-creditscore-54885c6f85-6z4gw",
+    "NodeAlias": "ilender-creditscore-54885c6f85-6z4gw",
+    "Manager": "Instana",
+    "FirstOccurrence": "1638989450",
+    "LastOccurrence": "1638857047",
+    "AlertGroup": "Availability",
+    "AlertKey": "ServiceDown",
+    "Type": 2,
+    "Severity": 0,
+    "NetcoolEventAction": "update"
+}
