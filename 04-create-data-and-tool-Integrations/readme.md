@@ -1,4 +1,4 @@
-# Watson AIOps AI-Manager Installation
+# Create Data and Tool Integrations
 
 This article explains about how to setup below Integration in Watson AIOps.
 
@@ -13,12 +13,7 @@ The article is based on the the following.
 
 ## 1. Setup Humio Integration
 
-This article explains about how to setup Humio Integration in Watson AIOps.
-
-The article is based on the the following.
-
-- RedHat OpenShift 4.8 on IBM Cloud (ROKS)
-- Watson AI-Ops 3.2.0
+This section explains about how to setup Humio Integration in Watson AIOps.
 
 1. Goto the page `Data and tool integrations`
 
@@ -43,6 +38,8 @@ The article is based on the the following.
     Sample value : http://1.1.1.1:8080/api/v1/repositories/sandbox/query
 
 - API Key of the Humio (Should be Account key not the ingestion key)
+
+To know more about humio url and token refer to the url : 
 
 6. Click on `Next` 
 
@@ -73,13 +70,7 @@ The article is based on the the following.
 
 ## 2. Setup ServiceNow Integration
 
-This article explains about how to setup ServiceNow Integration in Watson AIOps.
-
-The article is based on the the following.
-
-- RedHat OpenShift 4.8 on IBM Cloud (ROKS)
-- Watson AI-Ops 3.2.0
-
+This section explains about how to setup ServiceNow Integration in Watson AIOps.
 
 1. Goto the page `Data and tool integrations`
 
@@ -134,7 +125,7 @@ The article is based on the the following.
 
 ## 3. Setup Kubernetes Integration or Observer
 
-This document explains about how to setup Kubernetes Observer in Watson AIOps.
+This section explains about how to setup Kubernetes Observer in Watson AIOps.
 
 ### 1. Get Kubernetes Cluster Access Details
 
@@ -171,7 +162,7 @@ It may give a url like this
 https://c111.us-south.containers.cloud.ibm.com:32429
 ```
 
-<img src="images/image3-00020.png">
+<img src="images/image3-00016.png">
 
 ### 2. Create Kube Observer Connection
 
